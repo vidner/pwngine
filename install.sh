@@ -1,8 +1,8 @@
 cwd+=`pwd`
-echo "#!/bin/bash" > pwnigma
-echo "cd $cwd" >> pwnigma
-echo "vagrant up  > /dev/null 2>&1" >> pwnigma
-echo "vagrant ssh" >> pwnigma
-chmod +x pwnigma
+echo "#!/bin/bash" > pwngine
+echo "cd $cwd" >> pwngine
+echo "vagrant up  > /dev/null 2>&1" >> pwngine
+echo "vagrant ssh" >> pwngine
+chmod +x pwngine
 mv pwnigma /usr/local/bin
 vagrant up
