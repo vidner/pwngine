@@ -1,12 +1,10 @@
-# pwnmachine
+# pwngine
 
-Vagrantfile for quickly (~50 mins) setting up a headless Ubuntu 18.04 VM for
-exploit development on Linux.
+Personal pwn engine box
 
 ```
-sudo apt install vagrant
-git clone https://github.com/kapaw/pwnmachine
-cd pwnmachine
-vagrant up
-vagrant ssh
+https://github.com/vidner/pwngine.git
+cd pwngine
+sh install.sh
+pwngine
 ```
