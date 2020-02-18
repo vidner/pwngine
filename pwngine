@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/Vagrant
+vagrant up  > /dev/null 2>&1
+vagrant ssh
