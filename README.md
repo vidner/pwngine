@@ -1,6 +1,6 @@
 # pwngine
 
-Personal pwn engine box
+Personal pwn engine
 
 ```
 https://github.com/vidner/pwngine.git
